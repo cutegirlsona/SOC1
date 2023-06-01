@@ -1,0 +1,12 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © shaazmaniacs
+
+//@version=5
+strategy("insidecandle", overlay=true)
+
+switch
+    high<high[1] and low>low[1] and close>open => strategy.entry("long", strategy.long)
+    high<high[1] and low>low[1] and close<open => strategy.entry("short", strategy.short)
+
+
+
