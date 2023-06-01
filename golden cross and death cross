@@ -1,0 +1,15 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © shaazmaniacs
+
+//@version=5
+strategy("death cross and golden cross", overlay=true)
+
+float fastsma=ta.sma(close, 50)
+float slowsma=ta.sma(close, 200)
+
+switch
+    ta.crossover(fastsma, slowsma) => strategy.entry("buy", strategy.long)
+    ta.crossunder(fastsma, slowsma) => strategy.entry("sell", strategy.short )
+
+plot(fastsma)
+plot(slowsma)
