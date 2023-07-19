@@ -66,10 +66,7 @@ switch
 ```
 ![ASHOKLEY_2023-07-19_15-18-09](https://github.com/cutegirlsona/SOC1/assets/134861429/fd11e9ac-2840-48c4-8f3b-135332aa5889)
 
-##### 6. Swing Trade: Len = 14,21,60,90,120, Factor = 1.1, 1.03,1.06  ..  Price <  { Len } day Max price  and Price > Min Price{len}* Factor  AND volume is increasing or volume > avg volume(10 or 20 or 7 ) {Long the stock and share results} {mid cap / Nifty 50 }
-
-
-##### 7. 5 EMA strategy
+##### 6. 5 EMA strategy
 
 ```
 strategy("5 EMA", overlay=true)
@@ -90,7 +87,7 @@ switch
 ![NIFTY_2023-07-19_18-34-37](https://github.com/cutegirlsona/SOC1/assets/134861429/10793190-8022-4373-90a8-421b2350961d)
 
 
-##### 8. Inside Candle Strategy
+##### 7. Inside Candle Strategy
 
 ```
 strategy("insidecandle", overlay=true)
@@ -102,7 +99,7 @@ switch
 ![NIFTY_2023-07-18_23-50-10](https://github.com/cutegirlsona/SOC1/assets/134861429/efe70257-b6ed-4835-b7c6-b1c29e04043d)
 
 
-##### 9. Bollinger Band Strategy
+##### 8. Bollinger Band Strategy
 
 ```
 strategy("Bollinger Bands Strategy", overlay=true)
@@ -137,12 +134,12 @@ else
 ![TSLA_2023-07-19_19-31-03](https://github.com/cutegirlsona/SOC1/assets/134861429/ce4dd15e-d467-459e-81df-c3fcd6ceb2cb)
 
 
+##### 9. Parabolic SAR strategy and bollinger bands
+![NIFTY_2023-07-19_22-18-02](https://github.com/cutegirlsona/SOC1/assets/134861429/11d8c834-fc19-401a-afae-1632dd3457f8)
 
-##### 10. Monthly Candle strategy
+##### 10. 
 
 
 
-
-# Self-developed strategies
 
 
